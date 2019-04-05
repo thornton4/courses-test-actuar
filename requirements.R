@@ -4,6 +4,7 @@ library(remotes)
 
 devtools::install_version("copula","0.999-19")
 devtools::install_version("psych","1.8.12")
+devtools::install_version("actuar","2.3-1")
 
 
 ##### Install packages in development from GitHub #####
