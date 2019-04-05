@@ -24,17 +24,17 @@ use levpareto2() to solve this problem
 
 `@pre_exercise_code`
 ```{r}
-require("actuar")
+require("copula")
 ```
 
 `@sample_code`
 ```{r}
-actuar::levpareto2(70,3,100)
+copula::rlog(3,.7)
 ```
 
 `@solution`
 ```{r}
-actuar::levpareto2(70,3,100)
+copula::rlog(3,.7)
 
 ```
 
