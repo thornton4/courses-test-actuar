@@ -29,12 +29,12 @@ require("copula")
 
 `@sample_code`
 ```{r}
-rlog(3,.9)
+copula::rlog(3,.9)
 ```
 
 `@solution`
 ```{r}
-rlog(3,.9)
+copula::rlog(3,.9)
 
 ```
 
