@@ -28,7 +28,7 @@
 # apt-get update && apt-get install --yes libcairo2-dev
 
 ## GNU Scientific Library, for https://cran.r-project.org/web/packages/topicmodels
-# apt-get update && apt-get install --yes libgsl-dev
+apt-get update && apt-get install --yes libgsl-dev
 
 ## Poppler PDF renderer, for https://cran.r-project.org/web/packages/pdftools
 # apt-get update && apt-get install --yes libpoppler-cpp-dev
