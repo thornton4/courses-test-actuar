@@ -24,20 +24,21 @@ use levpareto2() to solve this problem
 
 `@pre_exercise_code`
 ```{r}
-
+require("copula")
 ```
 
 `@sample_code`
 ```{r}
-describe(mtcars)
+rlog(3,.9)
 ```
 
 `@solution`
 ```{r}
-describe(mtcars)
+rlog(3,.9)
+
 ```
 
 `@sct`
 ```{r}
-ex %>% check_function("describe") %>% check_result() %>% check_equal()
+
 ```
