@@ -7,6 +7,7 @@ library(remotes)
 # install_version("tidyr", "0.8.1")
 # install_version("purrr", "0.2.5")
 install_version("actuar", "2.3-1”)
+
 ##### Install packages in development from GitHub #####
 
 # install_github("nicholasehamilton/ggtern")
