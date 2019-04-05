@@ -24,17 +24,17 @@ use levpareto2() to solve this problem
 
 `@pre_exercise_code`
 ```{r}
-require("actuar")
+require("psych")
 ```
 
 `@sample_code`
 ```{r}
-levpareto2(70,3,100)
+psych::describe(mtcars)
 ```
 
 `@solution`
 ```{r}
-levpareto2(70,3,100)
+psych::describe(mtcars)
 
 ```
 
