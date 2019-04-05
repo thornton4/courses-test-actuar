@@ -2,11 +2,9 @@ library(remotes)
 
 ##### Install specific package versions from CRAN #####
 
-# install_version("ggplot2", "3.0.0")
-# install_version("dplyr", "0.7.5")
-# install_version("tidyr", "0.8.1")
-# install_version("purrr", "0.2.5")
 install_version("actuar", "2.3-1”)
+install_version("copula", "0.999-18")
+install_version("psych", "1.8.4")
 
 ##### Install packages in development from GitHub #####
 
