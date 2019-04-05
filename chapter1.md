@@ -24,20 +24,20 @@ use levpareto2() to solve this problem
 
 `@pre_exercise_code`
 ```{r}
-require(actuar)
+
 ```
 
 `@sample_code`
 ```{r}
-x=levpareto2(70,3,100)
+describe(mtcars)
 ```
 
 `@solution`
 ```{r}
-x=levpareto2(70,3,100)
+describe(mtcars)
 ```
 
 `@sct`
 ```{r}
-ex %>% check_object("x") %>% check_equal()
+ex %>% check_function("describe") %>% check_result() %>% check_equal()
 ```
