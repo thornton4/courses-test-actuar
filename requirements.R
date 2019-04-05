@@ -2,8 +2,8 @@ library(remotes)
 
 ##### Install specific package versions from CRAN #####
 
-install_version("copula","0.999-19")
-install_version("psych","1.8.12")
+devtools::install_version("copula","0.999-19")
+devtools::install_version("psych","1.8.12")
 
 
 ##### Install packages in development from GitHub #####
